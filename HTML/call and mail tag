@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <p>in this tutorial we are going to learn about how to add mail and telephone in our html file</p>
+<a href="https:www.google.com" target="blank">click here</a><!--here we use target attribute yo open google.com in new tab-->
+<a href="tel:6392252165"  target="blank">call me</a>
+<a href="mailto:dk777mgs@gmail.com" target="blank"> mail me</a>
+</body>
+</html>
