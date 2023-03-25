@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ 
+       <style>
+        table,tr,td{
+border:1px solid black;
+border-collapse:collapse;
+text-align: center;
+
+        }
+   
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col span="1"><!--aisa karne se ye colomn color nhi hoga-->
+       <col span="2" style="background-color: red">
+    <col style="background-color:yellow">    
+    </colgroup>
+       <tr> 
+        <td  rowspan="2">state of health </td>
+       
+        <td colspan="2">fasting value</td>
+        <td>after eating</td>
+       </tr>
+       <tr>
+       
+       <td>minimum</td>
+       <td>maximum</td>
+       <td>2 hours after eating</td>
+
+       </tr>
+       <tr>
+        <td>healthy</td>
+        <td>70</td>
+        <td>100</td>
+        <td>less than 40</td>
+       </tr>
+       <tr>
+        <td>diabetes</td>
+        <td>more than 126</td>
+        <td>N/A</td>
+        <td>more than 200</td>
+       </tr>
+       <tr>
+        <td>prediabetes</td>
+        <td>101</td>
+        <td>126</td>
+        <td>140 to 200</td>
+       </tr>
+
+    </table>
+    
+</body>
+</html>
