@@ -1,0 +1,63 @@
+.container{
+    height: 400px;
+background-color: beige;
+    border: 2px solid red;
+     display: flex;
+   flex-direction: row;  
+     /* flex-wrap:  used to maintain width while spacing; */
+    flex-wrap: wrap;
+    /* justify content is used to place the items(flex  child )according to major axis(horizontal axis); */
+/* 
+    justify-content: flex-end;
+   justify-content: flex-start;
+   justify-content: center;
+   justify-content: space-around;
+   justify-content: space-evenly;
+   justify-content: space-between;  */
+
+   /* align items is used to place the items(flex child )according to cross axis(vertical axis); */ 
+ /* align-items: flex-end;
+
+  align-items: center;
+  align-items: flex-start; */
+/* align-items: stretch;    */
+
+/* gap is used to add space between boxes; */
+ gap: 10px; 
+
+/* align content used to maintain spacce between rows */
+ align-content: flex-end;
+align-content: flex-start;
+align-content: space-around;
+align-content: space-between; 
+
+}
+.box{
+   
+   
+    border: 1px solid black;
+     width: 50px; 
+    background-color: aquamarine;
+    /* grow all  boxes equally*/
+    flex-grow: 1;
+
+ }
+#box1{ 
+    order: 1; 
+    flex-grow: 1;
+    /* flex shrink is used to set speed off shrinking the box while squeezing */
+ flex-shrink: 1;
+
+align-self: flex-end;
+} 
+#box3{
+    order: 6;
+    /* flex basis is used to give witdh to box */
+    /* flex-basis: 10px; */
+ }
+#box4{
+    order: 5;
+
+
+    align-self: flex-end;
+ }  
